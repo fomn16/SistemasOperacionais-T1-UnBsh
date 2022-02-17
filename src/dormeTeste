@@ -1,0 +1,4 @@
+#!/usr/bin/unbsh
+dorme 40 &
+dorme 20 &
+dorme 10 &

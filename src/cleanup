@@ -1,0 +1,4 @@
+#!/usr/bin/unbsh
+rm tmp -r
+rm bin -r
+rm meu_dir -r
