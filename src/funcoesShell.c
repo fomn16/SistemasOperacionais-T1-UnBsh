@@ -7,6 +7,7 @@ char* findLineInFile(char* lineContent, FILE ** file){
 	int found = 0;
 	long int lineSize = 0;
 	char * line = malloc(1);
+	line[0] = 0;
 	if (line == NULL){
 		printf("Erro ao alocar memoria ler arquivo(1)\n");
 		exit(1);
